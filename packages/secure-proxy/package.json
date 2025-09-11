@@ -25,15 +25,8 @@
     "build": "tsup --config tsup.lib.js",
     "test": "glob -c \"node --import tsx --no-warnings --test\" \"./tests/**/*.test.ts\""
   },
-  "keywords": [
-    "orama",
-    "search engine",
-    "sdk"
-  ],
-  "files": [
-    "dist",
-    "example/runkit.js"
-  ],
+  "keywords": ["orama", "search engine", "sdk"],
+  "files": ["dist", "example/runkit.js"],
   "author": {
     "name": "Michele Riva",
     "email": "michele.riva@oramasearch.com",
@@ -59,9 +52,6 @@
     "access": "public"
   },
   "ts-standard": {
-    "ignore": [
-      "dist",
-      "node_modules"
-    ]
+    "ignore": ["dist", "node_modules"]
   }
 }

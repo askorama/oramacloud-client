@@ -186,10 +186,7 @@ export class OramaClient<M extends boolean = true> {
   }
 
   public async search(query: ClientSearchParams, config?: SearchConfig): Promise<Nullable<OramaClientSearchResult<M>>>
-  public async search(
-    query: ClientSearchParams,
-    config?: SearchConfig
-  ): Promise<Nullable<OramaClientSearchResult<M>>> {
+  public async search(query: ClientSearchParams, config?: SearchConfig): Promise<Nullable<OramaClientSearchResult<M>>> {
     await this.initPromise
 
     // Avoid perform search if the user is not authenticated yet

@@ -18,16 +18,8 @@
     "dev": "tsup --config tsup.react.js --watch",
     "build": "tsup --config tsup.react.js"
   },
-  "keywords": [
-    "orama",
-    "react",
-    "search engine",
-    "sdk"
-  ],
-  "files": [
-    "dist",
-    "example/runkit.js"
-  ],
+  "keywords": ["orama", "react", "search engine", "sdk"],
+  "files": ["dist", "example/runkit.js"],
   "author": {
     "name": "Michele Riva",
     "email": "michele.riva@oramasearch.com",
@@ -51,9 +43,6 @@
     "access": "public"
   },
   "ts-standard": {
-    "ignore": [
-      "dist",
-      "node_modules"
-    ]
+    "ignore": ["dist", "node_modules"]
   }
 }

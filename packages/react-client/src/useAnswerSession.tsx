@@ -1,5 +1,5 @@
 import type { AnyDocument, AnyOrama, Nullable, Results, SearchParams } from '@orama/orama'
-import type { AnswerSessionParams, Message, Interaction } from '@oramacloud/client'
+import type { AnswerSessionParams, Interaction, Message } from '@oramacloud/client'
 
 import { AnswerSession, OramaClient } from '@oramacloud/client'
 import { useCallback, useEffect, useRef, useState } from 'react'

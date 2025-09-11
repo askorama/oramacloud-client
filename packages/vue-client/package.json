@@ -19,11 +19,7 @@
     "dev": "tsup --config tsup.vue.js --watch",
     "build": "tsup --config tsup.vue.js"
   },
-  "keywords": [
-    "orama",
-    "search engine",
-    "sdk"
-  ],
+  "keywords": ["orama", "search engine", "sdk"],
   "author": {
     "name": "Michele Riva",
     "email": "michele.riva@oramasearch.com",
@@ -45,9 +41,6 @@
     "access": "public"
   },
   "ts-standard": {
-    "ignore": [
-      "dist",
-      "node_modules"
-    ]
+    "ignore": ["dist", "node_modules"]
   }
 }
