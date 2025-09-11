@@ -1,6 +1,5 @@
 import type { AnyDocument, Nullable, Results } from '@orama/orama'
 import { type ClientSearchParams, type IOramaClient, OramaClient } from '@oramacloud/client'
-import { omit } from 'lodash'
 import { onMounted, ref, shallowRef, toValue, watchEffect } from 'vue'
 import type { ComputedRef, MaybeRefOrGetter, Ref } from 'vue'
 interface UseSearch {
@@ -31,7 +30,9 @@ export function useSearch(query: useSearchParams): UseSearch {
   })
 
   watchEffect(() => {
-    const valuedParams = Object.keys(omit(query, 'cloudConfig')).reduce((acc: any, curr) => {
+    const valuedParams = Object.keys(query).reduce((acc: any, curr) => {
+      if (curr === 'cloudConfig') return acc
+
       const currTyped = curr as keyof useSearchParams
       acc[currTyped] = toValue(query[currTyped])
 

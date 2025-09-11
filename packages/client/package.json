@@ -24,15 +24,8 @@
     "test": "glob -c \"node --import tsx --no-warnings --test\" \"./tests/**/*.test.ts\"",
     "serve:example": "esbuild src/index.ts --bundle --outfile=example/out.js --format=esm --watch --servedir=example"
   },
-  "keywords": [
-    "orama",
-    "search engine",
-    "sdk"
-  ],
-  "files": [
-    "dist",
-    "example/runkit.js"
-  ],
+  "keywords": ["orama", "search engine", "sdk"],
+  "files": ["dist", "example/runkit.js"],
   "author": {
     "name": "Michele Riva",
     "email": "michele.riva@oramasearch.com",
@@ -41,12 +34,10 @@
   "license": "ISC",
   "dependencies": {
     "@orama/cuid2": "^2.2.3",
-    "@orama/orama": "^3.0.0",
-    "lodash": "^4.17.21"
+    "@orama/orama": "^3.0.0"
   },
   "devDependencies": {
     "@fastify/formbody": "^7.4.0",
-    "@types/lodash": "^4.14.202",
     "@types/node": "^20.3.1",
     "dotenv": "^16.3.1",
     "esbuild": "0.18.5",
@@ -63,9 +54,6 @@
     "access": "public"
   },
   "ts-standard": {
-    "ignore": [
-      "dist",
-      "node_modules"
-    ]
+    "ignore": ["dist", "node_modules"]
   }
 }
