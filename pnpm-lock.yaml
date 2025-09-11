@@ -32,16 +32,10 @@ importers:
       '@orama/orama':
         specifier: ^3.0.0
         version: 3.0.1
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
     devDependencies:
       '@fastify/formbody':
         specifier: ^7.4.0
         version: 7.4.0
-      '@types/lodash':
-        specifier: ^4.14.202
-        version: 4.17.13
       '@types/node':
         specifier: ^20.3.1
         version: 20.17.6
@@ -84,16 +78,10 @@ importers:
       '@oramacloud/client':
         specifier: workspace:*
         version: link:../client
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
       react:
         specifier: ^18.2.0
         version: 18.3.1
     devDependencies:
-      '@types/lodash':
-        specifier: ^4.14.202
-        version: 4.17.13
       '@types/react':
         specifier: ^18.2.14
         version: 18.3.12
@@ -158,16 +146,10 @@ importers:
       '@oramacloud/client':
         specifier: workspace:*
         version: link:../client
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
       vue:
         specifier: ^3.4.25
         version: 3.5.13(typescript@5.6.3)
     devDependencies:
-      '@types/lodash':
-        specifier: ^4.14.202
-        version: 4.17.13
       ts-standard:
         specifier: ^12.0.2
         version: 12.0.2(typescript@5.6.3)
@@ -893,9 +875,6 @@ packages:
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
-  '@types/lodash@4.17.13':
-    resolution: {integrity: sha512-lfx+dftrEZcdBPczf9d0Qv0x+j/rfNCMuC6OcfXmO8gkfeNAY88PgKUbvG56whcN23gc27yenwF6oJZXGFpYxg==}
 
   '@types/node-fetch@2.6.12':
     resolution: {integrity: sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==}
@@ -1981,9 +1960,6 @@ packages:
 
   lodash.sortby@4.7.0:
     resolution: {integrity: sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==}
-
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -3287,8 +3263,6 @@ snapshots:
   '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
-
-  '@types/lodash@4.17.13': {}
 
   '@types/node-fetch@2.6.12':
     dependencies:
@@ -4643,8 +4617,6 @@ snapshots:
   lodash.merge@4.6.2: {}
 
   lodash.sortby@4.7.0: {}
-
-  lodash@4.17.21: {}
 
   loose-envify@1.4.0:
     dependencies:

@@ -37,12 +37,10 @@
   "dependencies": {
     "@orama/orama": "^3.0.0",
     "react": "^18.2.0",
-    "@oramacloud/client": "workspace:*",
-    "lodash": "^4.17.21"
+    "@oramacloud/client": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
-    "@types/lodash": "^4.14.202",
     "dotenv": "^16.3.1",
     "ts-standard": "^12.0.2",
     "tsup": "^8.3.0",
