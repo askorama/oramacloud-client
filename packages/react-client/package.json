@@ -4,6 +4,15 @@
   "description": "Orama SDK for React",
   "type": "module",
   "sideEffects": false,
+  "homepage": "https://github.com/oramasearch/oramacloud-client-javascript/tree/main/packages/react-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oramasearch/oramacloud-client-javascript.git",
+    "directory": "packages/react-client"
+  },
+  "bugs": {
+    "url": "https://github.com/oramasearch/oramacloud-client-javascript/issues"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
