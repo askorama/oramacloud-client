@@ -4,6 +4,15 @@
   "description": "Orama SDK client for Node.js, Deno, and Browsers",
   "type": "module",
   "sideEffects": false,
+  "homepage": "https://github.com/oramasearch/oramacloud-client-javascript/tree/main/packages/client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oramasearch/oramacloud-client-javascript.git",
+    "directory": "packages/client"
+  },
+  "bugs": {
+    "url": "https://github.com/oramasearch/oramacloud-client-javascript/issues"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
