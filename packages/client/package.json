@@ -39,6 +39,15 @@
     "url": "https://github.com/MicheleRiva"
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oramasearch/oramacloud-client-javascript.git",
+    "directory": "packages/client"
+  },
+  "bugs": {
+    "url": "https://github.com/oramasearch/oramacloud-client-javascript/issues"
+  },
+  "homepage": "https://github.com/oramasearch/oramacloud-client-javascript/tree/main/packages/client#readme",
   "dependencies": {
     "@orama/cuid2": "^2.2.3",
     "@orama/orama": "^3.0.0",
